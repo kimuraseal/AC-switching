@@ -3109,7 +3109,7 @@
 	)
 	(text "Zero Cross Switching "
 		(exclude_from_sim no)
-		(at 43.942 72.136 0)
+		(at 43.688 70.104 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3119,7 +3119,7 @@
 	)
 	(text "Random Phase Switching "
 		(exclude_from_sim no)
-		(at 172.974 71.12 0)
+		(at 172.974 69.596 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3157,7 +3157,7 @@
 		)
 		(uuid "6f188d6c-69a2-435b-9768-ee9f11f2160a")
 	)
-	(text "Compadable with 100V systems.\nMaximum current 8A.\nCapable of switching Inductive loads and Resistive loads.\nDepending on the load Heat sinks may be required.\n\nSnubber passivses to be revised later\n "
+	(text "Compadable with 100V systems.\nMaximum current 8A.\nCapable of switching Inductive loads and Resistive loads.\nDepending on the load Heat sinks may be required."
 		(exclude_from_sim no)
 		(at 18.796 185.928 0)
 		(effects
@@ -3173,6 +3173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0596002d-93e2-4e50-8c95-6ac4da4d9e71")
+	)
+	(junction
+		(at 172.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0795dcc7-ca55-4535-9a5e-02ed16421dfe")
 	)
 	(junction
 		(at 257.81 76.2)
@@ -3271,6 +3277,12 @@
 		(uuid "6207c295-5a9d-4b8a-a399-137500079124")
 	)
 	(junction
+		(at 172.72 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64f963fe-52e1-4933-b099-acaacde63d64")
+	)
+	(junction
 		(at 92.71 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3293,6 +3305,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7238767b-2e7d-48f0-bd08-05d8470c2ae5")
+	)
+	(junction
+		(at 45.72 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f96f4f5-2cdc-42c3-b101-035d437a1f59")
 	)
 	(junction
 		(at 226.06 144.78)
@@ -3359,6 +3377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb5f0a89-0d73-45b6-9661-55c7ee175e6a")
+	)
+	(junction
+		(at 45.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf687a7-f941-4d55-99be-2519ec5b518b")
 	)
 	(junction
 		(at 109.22 78.74)
@@ -3524,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 127) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3f4357-ecaa-4dc0-b548-7d094a9f368f")
+	)
+	(wire
+		(pts
 			(xy 99.06 134.62) (xy 99.06 137.16)
 		)
 		(stroke
@@ -3604,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 127) (xy 175.26 127)
+			(xy 170.18 127) (xy 172.72 127)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 129.54) (xy 33.02 129.54)
+			(xy 35.56 129.54) (xy 33.02 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3871,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "3bdb9220-d594-4f1a-ab25-d64a9ddf7ce0")
+	)
+	(wire
+		(pts
+			(xy 45.72 127) (xy 45.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9f1058-9571-4562-913c-b55a31672833")
 	)
 	(wire
 		(pts
@@ -4114,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 129.54) (xy 48.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b36e585-ae7e-40a3-8bd8-9805c3e14f57")
+	)
+	(wire
+		(pts
 			(xy 59.69 88.9) (xy 57.15 88.9)
 		)
 		(stroke
@@ -4274,7 +4328,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 160.02 81.28)
+			(xy 162.56 81.28) (xy 160.02 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4304,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 83.82) (xy 48.26 83.82)
+			(xy 43.18 83.82) (xy 45.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4394,13 +4448,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 127) (xy 160.02 127)
+			(xy 162.56 127) (xy 160.02 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "891e0417-b274-451f-84d0-63318e2e943a")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c901eb-7f79-4e89-8ead-cc36b5b14895")
 	)
 	(wire
 		(pts
@@ -4504,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 129.54) (xy 48.26 129.54)
+			(xy 43.18 129.54) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4574,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 175.26 81.28)
+			(xy 170.18 81.28) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4844,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 83.82) (xy 33.02 83.82)
+			(xy 35.56 83.82) (xy 33.02 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5134,6 +5198,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 124.46) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5abd878-c4d9-474e-a891-3aa4117644ad")
+	)
+	(wire
+		(pts
 			(xy 162.56 50.8) (xy 167.64 50.8)
 		)
 		(stroke
@@ -5141,6 +5215,26 @@
 			(type default)
 		)
 		(uuid "e6e9686e-5ade-4ee3-9f39-d50f2507c6bb")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7e3cd6-476c-4e00-a3f2-fe8709e3e6d8")
+	)
+	(wire
+		(pts
+			(xy 45.72 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbc8570-c6bf-495a-a6b4-02067cdb9f37")
 	)
 	(wire
 		(pts
@@ -5201,6 +5295,16 @@
 			(type default)
 		)
 		(uuid "f721d868-95d6-406a-87f8-bc604d1df059")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f49415-5a24-489e-8a8d-7d8b1a46b1d1")
 	)
 	(wire
 		(pts
@@ -5739,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1218"
 			(at 224.79 123.698 90)
 			(effects
 				(font
@@ -5807,7 +5911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 38.1 102.362 90)
 			(effects
 				(font
@@ -5875,7 +5979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 179.07 128.778 90)
 			(effects
 				(font
@@ -5919,7 +6023,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 40.64 129.54 0)
+		(at 39.37 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5928,7 +6032,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ce27db0-35ff-4550-bc74-876bb63a4746")
 		(property "Reference" "D2"
-			(at 39.0525 123.19 0)
+			(at 37.7825 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,15 +6040,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 39.0525 125.73 0)
+			(at 37.7825 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 129.54 0)
+		(property "Footprint" "Custom_footprints:Lite On LTST-C190"
+			(at 39.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 129.54 0)
+			(at 39.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6066,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 40.64 129.54 0)
+			(at 39.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6075,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 40.64 129.54 0)
+			(at 39.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Lite On LTST-C190"
 			(at 107.95 39.37 0)
 			(effects
 				(font
@@ -6301,7 +6405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 97.282 95.25 90)
 			(effects
 				(font
@@ -6494,7 +6598,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 167.64 127 0)
+		(at 166.37 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6503,7 +6607,7 @@
 		(fields_autoplaced yes)
 		(uuid "384bd2a2-5161-4184-832b-7927ce8a5fdc")
 		(property "Reference" "D7"
-			(at 166.0525 120.65 0)
+			(at 164.7825 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,15 +6615,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.0525 123.19 0)
+			(at 164.7825 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 167.64 127 0)
+		(property "Footprint" "Custom_footprints:Lite On LTST-C190"
+			(at 166.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +6632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 127 0)
+			(at 166.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6641,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 167.64 127 0)
+			(at 166.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +6650,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 127 0)
+			(at 166.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +6967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 81.28 127.762 90)
 			(effects
 				(font
@@ -6931,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1218"
 			(at 224.79 77.978 90)
 			(effects
 				(font
@@ -7001,7 +7105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 118.618 45.72 90)
 			(effects
 				(font
@@ -7135,7 +7239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 208.28 125.222 90)
 			(effects
 				(font
@@ -7172,6 +7276,72 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 45.72 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc849f1-4cfb-4313-b83a-c655517d50a5")
+		(property "Reference" "#PWR08"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14df35e-1867-491e-86ca-c4ca3ccd2c6e")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7238,6 +7408,72 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63866a50-bbdd-4e83-bcbe-16df6cf0ef5c")
+		(property "Reference" "#PWR09"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c632c3-d0fa-4540-b076-ab60000e8a63")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7440,6 +7676,72 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7325cd-d312-40fc-91bf-31f59cc67152")
+		(property "Reference" "#PWR011"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 172.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4663685-89a6-49f5-adde-4c4b7e07f2bc")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8043,7 +8345,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 167.64 81.28 0)
+		(at 166.37 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8052,7 +8354,7 @@
 		(fields_autoplaced yes)
 		(uuid "89614413-20d8-433f-a6c6-f72ff0221960")
 		(property "Reference" "D6"
-			(at 166.0525 74.93 0)
+			(at 164.7825 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,15 +8362,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.0525 77.47 0)
+			(at 164.7825 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 167.64 81.28 0)
+		(property "Footprint" "Custom_footprints:Lite On LTST-C190"
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8388,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 167.64 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8397,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 170.18 89.662 90)
 			(effects
 				(font
@@ -8212,7 +8514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 43.18 92.202 90)
 			(effects
 				(font
@@ -8350,7 +8652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 165.1 145.542 90)
 			(effects
 				(font
@@ -8646,7 +8948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 179.07 83.058 90)
 			(effects
 				(font
@@ -8924,7 +9226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 52.07 85.598 90)
 			(effects
 				(font
@@ -9208,7 +9510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 170.18 135.382 90)
 			(effects
 				(font
@@ -9276,7 +9578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 81.28 82.042 90)
 			(effects
 				(font
@@ -9414,7 +9716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 38.1 148.082 90)
 			(effects
 				(font
@@ -9555,7 +9857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 208.28 79.502 90)
 			(effects
 				(font
@@ -9625,7 +9927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 224.282 92.71 90)
 			(effects
 				(font
@@ -9669,7 +9971,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 40.64 83.82 0)
+		(at 39.37 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9678,7 +9980,7 @@
 		(fields_autoplaced yes)
 		(uuid "d60502a9-84b4-4941-bb62-59de82356cb8")
 		(property "Reference" "D1"
-			(at 39.0525 77.47 0)
+			(at 37.7825 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,15 +9988,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 39.0525 80.01 0)
+			(at 37.7825 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 83.82 0)
+		(property "Footprint" "Custom_footprints:Lite On LTST-C190"
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +10005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 83.82 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +10014,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 40.64 83.82 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +10023,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 40.64 83.82 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,6 +10041,72 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 45.72 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de57b0cf-c5d2-46d4-b9c9-05049fb7a59f")
+		(property "Reference" "#PWR010"
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 45.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d4be1f-0479-4e68-97bd-a40b76780b13")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9843,7 +10211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 97.282 140.97 90)
 			(effects
 				(font
@@ -9911,7 +10279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 165.1 99.822 90)
 			(effects
 				(font
@@ -9979,7 +10347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1218"
 			(at 97.79 126.238 90)
 			(effects
 				(font
@@ -10047,7 +10415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 43.18 137.922 90)
 			(effects
 				(font
@@ -10344,7 +10712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1218"
 			(at 97.79 80.518 90)
 			(effects
 				(font
@@ -10412,7 +10780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
 			(at 52.07 131.318 90)
 			(effects
 				(font
@@ -10482,7 +10850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 224.282 138.43 90)
 			(effects
 				(font

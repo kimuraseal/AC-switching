@@ -1,4 +1,4 @@
-24737347696211792
+24744315412965973
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55230,12 +55230,40 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Custom_footprints
-ST MIcroelectronics T16xx
-TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+Lite On LTST-C190
+Lite On LTST-C190 LED 
+LED
 0
-7
+2
+2
+Custom_footprints
+ST MIcroelectronics T16xx
+ST MIcroelectronics 16A Snubberless Triacs in D2PAK
+16A Snubberless Triacs in D2PAK
+0
 3
+3
+Custom_footprints
+Yageo RC_L 0603
+Yageo RC_L Series SMD 0603
+resistor handsolder
+0
+2
+2
+Custom_footprints
+Yageo RC_L 1206
+Yageo RC_L Series SMD 1206
+resistor handsolder
+0
+2
+2
+Custom_footprints
+Yageo RC_L 1218
+Yageo RC_L Series SMD 1218
+resistor
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
