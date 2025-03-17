@@ -1,0 +1,121 @@
+(footprint "TDK B32682A4223"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Metallized Polypropylene Film Capacitors")
+	(tags "Film Capacitors")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba312e76-ef39-4590-86a1-37af5cfb1811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "B32682A4223"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "025880f3-b157-48d3-9f07-bb02e6a72c63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mfp_b32682_686.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bcbd764-8053-4604-8dca-67724cd3d20e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Metallized Polypropylene Film Capacitors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e157cab2-2a20-4402-b5f5-7c3d1d55150c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9 -3)
+		(end 9 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c409791-6dc9-4b88-9f5a-27d8a75b6e47")
+	)
+	(fp_rect
+		(start -9.25 -3.25)
+		(end 9.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a91d6363-462b-441a-b956-e8ebb7d40deb")
+	)
+	(fp_rect
+		(start -8.9 -2.9)
+		(end 8.9 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "14ab15e6-2912-4116-82a2-f39dff79f64c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8f76fe8e-9350-4871-80a9-4846f6499db2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.5 0)
+		(size 2 2)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "775b099d-6459-44ce-aae1-ce1142beef6e")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2 2)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6aad930c-ae4b-4416-b6f6-4a6844d479ca")
+	)
+	(embedded_fonts no)
+)

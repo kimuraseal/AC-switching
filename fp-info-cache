@@ -1,4 +1,4 @@
-24744315412965973
+24747799760778218
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55237,6 +55237,13 @@ LED
 2
 2
 Custom_footprints
+Little Fuse V20H175
+Radial Leaded Varistors
+Varistors
+0
+2
+2
+Custom_footprints
 ST MIcroelectronics T16xx
 ST MIcroelectronics 16A Snubberless Triacs in D2PAK
 16A Snubberless Triacs in D2PAK
@@ -55244,16 +55251,23 @@ ST MIcroelectronics 16A Snubberless Triacs in D2PAK
 3
 3
 Custom_footprints
+TDK B32682A4223
+Metallized Polypropylene Film Capacitors
+Film Capacitors
+0
+2
+2
+Custom_footprints
 Yageo RC_L 0603
 Yageo RC_L Series SMD 0603
-resistor handsolder
+resistor
 0
 2
 2
 Custom_footprints
 Yageo RC_L 1206
 Yageo RC_L Series SMD 1206
-resistor handsolder
+resistor
 0
 2
 2

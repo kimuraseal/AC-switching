@@ -5646,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040cd3e2-d70c-4b2a-a5b4-8f8349963d1b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 181.61 161.29 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5721,7 +5721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V175SM20"
+		(property "Value" "V20H175AUTO"
 			(at 260.35 134.8132 0)
 			(effects
 				(font
@@ -5730,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
 			(at 256.032 133.35 90)
 			(effects
 				(font
@@ -6108,7 +6108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b2e9dd-7b2f-4857-916d-5fd3b11a0dd1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -6158,7 +6158,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6244,7 +6244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171ba75a-3780-4441-ac97-4ad79e642379")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -6294,7 +6294,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6310,7 +6310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23509bc7-7279-4159-98b0-fdae94d131de")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 109.5375 31.75 0)
 			(effects
 				(font
@@ -6371,7 +6371,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6457,7 +6457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cafb39c-6895-46ef-b344-fe11ce570173")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 181.61 115.57 0)
 			(effects
 				(font
@@ -6507,7 +6507,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V175SM20"
+		(property "Value" "V20H175AUTO"
 			(at 133.35 91.6332 0)
 			(effects
 				(font
@@ -6784,7 +6784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
 			(at 129.032 90.17 90)
 			(effects
 				(font
@@ -6899,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:TDK B32682A4223"
 			(at 215.5952 96.52 0)
 			(effects
 				(font
@@ -7291,7 +7291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc849f1-4cfb-4313-b83a-c655517d50a5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR01"
 			(at 45.72 85.09 0)
 			(effects
 				(font
@@ -7341,7 +7341,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR08")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7423,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63866a50-bbdd-4e83-bcbe-16df6cf0ef5c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 172.72 82.55 0)
 			(effects
 				(font
@@ -7473,7 +7473,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7489,7 +7489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "638d11ad-a2cb-4683-b7be-ab9a742a8521")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 91.44 139.6999 0)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:TDK B32682A4223"
 			(at 88.5952 144.78 0)
 			(effects
 				(font
@@ -7543,7 +7543,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7559,7 +7559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676d51af-2b96-47ec-9214-0fdf4dd39f0b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 68.58 60.96 0)
 			(effects
 				(font
@@ -7609,7 +7609,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7691,7 +7691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e7325cd-d312-40fc-91bf-31f59cc67152")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 172.72 128.27 0)
 			(effects
 				(font
@@ -7741,7 +7741,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7766,7 +7766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V175SM20"
+		(property "Value" "V20H175AUTO"
 			(at 133.35 137.3532 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
 			(at 129.032 135.89 90)
 			(effects
 				(font
@@ -8181,7 +8181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V175SM20"
+		(property "Value" "V20H175AUTO"
 			(at 260.35 89.0932 0)
 			(effects
 				(font
@@ -8190,7 +8190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
 			(at 256.032 87.63 90)
 			(effects
 				(font
@@ -8287,7 +8287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86c90a75-2d51-4b1b-b4b0-4634fcd9da2f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 54.61 118.11 0)
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 		(instances
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8566,7 +8566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9525a16f-5ab7-4562-8edc-101b46f04963")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 91.44 93.9799 0)
 			(effects
 				(font
@@ -8584,7 +8584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:TDK B32682A4223"
 			(at 88.5952 99.06 0)
 			(effects
 				(font
@@ -8620,7 +8620,7 @@
 		(instances
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8704,7 +8704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "994c15d6-0e37-446f-aa3d-8b602b473021")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 113.03 131.3814 0)
 			(effects
 				(font
@@ -8761,7 +8761,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8777,7 +8777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "996c3064-a44a-43a0-b933-0a2a4f2aa7af")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 113.03 85.6614 0)
 			(effects
 				(font
@@ -8834,7 +8834,7 @@
 		(instances
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9354,7 +9354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7bb0073-c6a9-4a49-a438-59c29e23c549")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 85.09 43.5609 0)
 			(effects
 				(font
@@ -9408,7 +9408,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9648,7 +9648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_footprints:TDK B32682A4223"
 			(at 215.5952 142.24 0)
 			(effects
 				(font
@@ -10056,7 +10056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de57b0cf-c5d2-46d4-b9c9-05049fb7a59f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 45.72 130.81 0)
 			(effects
 				(font
@@ -10106,7 +10106,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
