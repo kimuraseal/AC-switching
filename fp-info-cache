@@ -1,4 +1,4 @@
-24747799760778218
+24749543392754131
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,6 +55229,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom_footprints
+3mm Mouting hole
+3mm Mouting hole
+3mm Mouting hole
+0
+0
+0
 Custom_footprints
 Lite On LTST-C190
 Lite On LTST-C190 LED 
