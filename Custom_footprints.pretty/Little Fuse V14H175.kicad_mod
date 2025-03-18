@@ -1,9 +1,9 @@
-(footprint "Little Fuse V20H175"
+(footprint "Little Fuse V14H175"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Radial Leaded Varistors")
+	(descr "HMOVTM Varistor Series")
 	(tags "Varistors")
 	(property "Reference" "REF**"
 		(at 0 -4.4 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "V20H175"
+	(property "Value" "V14H175"
 		(at 0 4.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.littelfuse.com/assetdocs/varistors-aumov-datasheet?assetguid=bb63149a-3c1e-4608-8360-71453fc92229"
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-varistors-hmov-datasheet?assetguid=19712a7a-9371-4973-bba5-3501b24e1529"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "Radial Leaded Varistors"
+	(property "Description" "HMOV Varistor Series"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -102,7 +102,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -5.5 -1.75)
+		(at -3.75 -1.25)
 		(size 2 2)
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
@@ -110,7 +110,7 @@
 		(uuid "bf695127-724e-4d3a-9de2-d461b496808f")
 	)
 	(pad "2" thru_hole circle
-		(at 5.5 1.75)
+		(at 3.75 1.25)
 		(size 2 2)
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")

@@ -1,4 +1,4 @@
-24749543392754131
+24749543460170829
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55244,8 +55244,8 @@ LED
 2
 2
 Custom_footprints
-Little Fuse V20H175
-Radial Leaded Varistors
+Little Fuse V14H175
+HMOVTM Varistor Series
 Varistors
 0
 2

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "AC switching circuit")
-		(date "2025-03-12")
+		(date "2025-03-18")
 		(rev "0")
 		(company "キムラシール株式会社")
 	)
@@ -5675,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V20H175AUTO"
+		(property "Value" "V14H175P"
 			(at 260.35 134.8132 0)
 			(effects
 				(font
@@ -5684,7 +5684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
+		(property "Footprint" "Custom_footprints:Little Fuse V14H175"
 			(at 256.032 133.35 90)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V20H175AUTO"
+		(property "Value" "V14H175P"
 			(at 133.35 82.7432 0)
 			(effects
 				(font
@@ -6866,7 +6866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
+		(property "Footprint" "Custom_footprints:Little Fuse V14H175"
 			(at 129.032 81.28 90)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V20H175AUTO"
+		(property "Value" "V14H175P"
 			(at 133.35 137.3532 0)
 			(effects
 				(font
@@ -8051,7 +8051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
+		(property "Footprint" "Custom_footprints:Little Fuse V14H175"
 			(at 129.032 135.89 90)
 			(effects
 				(font
@@ -8596,7 +8596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V20H175AUTO"
+		(property "Value" "V14H175P"
 			(at 260.35 80.2032 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_footprints:Little Fuse V20H175"
+		(property "Footprint" "Custom_footprints:Little Fuse V14H175"
 			(at 256.032 78.74 90)
 			(effects
 				(font
