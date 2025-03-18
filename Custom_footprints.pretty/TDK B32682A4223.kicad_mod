@@ -118,4 +118,15 @@
 		(uuid "6aad930c-ae4b-4416-b6f6-4a6844d479ca")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT.wrl"
+		(offset
+			(xyz -7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

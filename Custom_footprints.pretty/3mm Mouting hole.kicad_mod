@@ -68,11 +68,12 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 6 6)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "f5416bb5-01af-4b39-849d-29525904e0b8")
 	)
 	(embedded_fonts no)

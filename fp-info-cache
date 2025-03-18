@@ -1,4 +1,4 @@
-24749543460170829
+24751286075130865
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55234,8 +55234,8 @@ Custom_footprints
 3mm Mouting hole
 3mm Mouting hole
 0
-0
-0
+1
+1
 Custom_footprints
 Lite On LTST-C190
 Lite On LTST-C190 LED 
@@ -55244,8 +55244,8 @@ LED
 2
 2
 Custom_footprints
-Little Fuse V14H175
-HMOVTM Varistor Series
+Panasonic ERZV10D201
+Panasonic Varistors (ZNR Surge Absorber)
 Varistors
 0
 2
@@ -55261,6 +55261,13 @@ Custom_footprints
 TDK B32682A4223
 Metallized Polypropylene Film Capacitors
 Film Capacitors
+0
+2
+2
+Custom_footprints
+TerminalBlock_bornier-2_P5.08mm
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
 0
 2
 2

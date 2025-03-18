@@ -1,9 +1,9 @@
-(footprint "Little Fuse V14H175"
+(footprint "Panasonic ERZV10D201"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "HMOVTM Varistor Series")
+	(descr "Panasonic Varistors (ZNR Surge Absorber)")
 	(tags "Varistors")
 	(property "Reference" "REF**"
 		(at 0 -4.4 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "V14H175"
+	(property "Value" "ERZV10D201"
 		(at 0 4.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-varistors-hmov-datasheet?assetguid=19712a7a-9371-4973-bba5-3501b24e1529"
+	(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C1.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "HMOV Varistor Series"
+	(property "Description" "Varistors (ZNR Surge Absorber)"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -57,30 +57,30 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -6.6 -2.9)
-		(end 6.6 2.9)
+		(start -5.75 -2.4)
+		(end 5.75 2.4)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "74514cee-7c3c-4df8-8d3d-2a27f4eee3d0")
 	)
 	(fp_rect
-		(start -6.9 -3.2)
-		(end 6.9 3.2)
+		(start -6 -2.65)
+		(end 6 2.65)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1844f803-ba41-4692-a34b-3daa8a41aa28")
 	)
 	(fp_rect
-		(start -6.5 -2.8)
-		(end 6.5 2.8)
+		(start -5.7 -2.35)
+		(end 5.7 2.35)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -102,7 +102,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -3.75 -1.25)
+		(at -3.75 -0.95)
 		(size 2 2)
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
@@ -110,7 +110,7 @@
 		(uuid "bf695127-724e-4d3a-9de2-d461b496808f")
 	)
 	(pad "2" thru_hole circle
-		(at 3.75 1.25)
+		(at 3.75 0.95)
 		(size 2 2)
 		(drill 0.81)
 		(layers "*.Cu" "*.Mask")
@@ -118,4 +118,15 @@
 		(uuid "930cd632-100c-4652-b332-4d5b8075de37")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W3.9mm_P7.5mm.step"
+		(offset
+			(xyz -4 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
