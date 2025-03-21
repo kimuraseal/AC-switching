@@ -1,4 +1,4 @@
-24751286323579236
+24753028848878200
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55257,6 +55257,13 @@ ST MIcroelectronics 16A Snubberless Triacs in D2PAK
 0
 3
 3
+Custom_footprints
+TDK B32529C6102
+Metallized Polypropylene Film Capacitors
+Film Capacitors
+0
+2
+2
 Custom_footprints
 TDK B32682A4223
 Metallized Polypropylene Film Capacitors

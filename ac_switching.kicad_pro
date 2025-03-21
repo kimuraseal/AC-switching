@@ -632,6 +632,22 @@
     [
       "b402066c-6567-466f-a855-d7be6690f5a9",
       "Root"
+    ],
+    [
+      "332a290e-344f-462a-92a7-85789e0e9197",
+      "DC power"
+    ],
+    [
+      "a979be4b-b386-47af-888d-a97d9fcf650c",
+      "Zero Cross Switching"
+    ],
+    [
+      "8d19f35f-1455-491f-833d-85046326a27d",
+      "Random Phase Switching"
+    ],
+    [
+      "06a9304c-e8b5-43af-b9a5-3b1ba81d2207",
+      "Zero Cross Detector"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,132 @@
+(footprint "TDK B32529C6102"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Metallized Polypropylene Film Capacitors")
+	(tags "Film Capacitors")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba312e76-ef39-4590-86a1-37af5cfb1811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B32529C6102"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "025880f3-b157-48d3-9f07-bb02e6a72c63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bcbd764-8053-4604-8dca-67724cd3d20e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Metallized Polypropylene Film Capacitors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e157cab2-2a20-4402-b5f5-7c3d1d55150c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.65 -1.25)
+		(end 3.65 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c409791-6dc9-4b88-9f5a-27d8a75b6e47")
+	)
+	(fp_rect
+		(start -3.8 -1.4)
+		(end 3.8 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a91d6363-462b-441a-b956-e8ebb7d40deb")
+	)
+	(fp_rect
+		(start -3.6 -1.2)
+		(end 3.6 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "14ab15e6-2912-4116-82a2-f39dff79f64c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8f76fe8e-9350-4871-80a9-4846f6499db2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.25 1.25)
+		(drill 0.51)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "775b099d-6459-44ce-aae1-ce1142beef6e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.25 1.25)
+		(drill 0.51)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6aad930c-ae4b-4416-b6f6-4a6844d479ca")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W2.5mm_P5.00mm.wrl"
+		(offset
+			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
