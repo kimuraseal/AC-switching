@@ -639,11 +639,23 @@
     ],
     [
       "a979be4b-b386-47af-888d-a97d9fcf650c",
-      "Zero Cross Switching"
+      "Zero Cross Switch 1"
+    ],
+    [
+      "f41ba818-b19b-4464-ada5-69101af771e3",
+      "Zero Cross Switch 2"
     ],
     [
       "8d19f35f-1455-491f-833d-85046326a27d",
-      "Random Phase Switching"
+      "Random Phase Switch 1"
+    ],
+    [
+      "9a0c926c-9942-46fe-b8d6-2126c643c6cd",
+      "Random Phase Switch 2"
+    ],
+    [
+      "5a564829-5fa3-408a-b96f-db158d3ad15a",
+      "DC Switch 1"
     ],
     [
       "06a9304c-e8b5-43af-b9a5-3b1ba81d2207",

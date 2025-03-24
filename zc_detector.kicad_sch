@@ -601,6 +601,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode_Bridge:MDB6S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MDB6S"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bridge diode rectifier ac dc acdc ac-dc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P4mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MDB6S_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Isolator:4N35"
 			(pin_names
 				(offset 1.016)
@@ -1417,28 +1666,10 @@
 		(uuid "fe819326-3833-4566-b63d-fa68a09f5e98")
 	)
 	(junction
-		(at 144.78 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d77f9ea-8cb9-4468-aa47-6377b9ed002b")
-	)
-	(junction
-		(at 144.78 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1adf2f6c-be08-4829-ad27-3baf904cf7f9")
-	)
-	(junction
 		(at 154.94 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31bda8fb-5ca6-4635-b8a9-13136d14df87")
-	)
-	(junction
-		(at 144.78 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "496cd896-8b74-4ce8-99d0-d341c02212df")
 	)
 	(junction
 		(at 154.94 76.2)
@@ -1453,16 +1684,22 @@
 		(uuid "520e5e56-08ef-4063-9fbe-2785a40bd8ed")
 	)
 	(junction
-		(at 110.49 88.9)
+		(at 106.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9834b596-1560-474a-a296-6d01d7545d74")
+		(uuid "673b2b09-3559-4a52-bf66-3bb281a79acf")
 	)
 	(junction
-		(at 120.65 88.9)
+		(at 143.51 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f61f48e-900d-4d88-b547-f38fd3f8f2e8")
+		(uuid "82edadaa-2c41-45c4-9480-b4f2fca094b7")
+	)
+	(junction
+		(at 106.68 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a08acefe-0058-4ef4-aa29-579e95e27e9c")
 	)
 	(junction
 		(at 154.94 99.06)
@@ -1471,42 +1708,20 @@
 		(uuid "b0de370d-e2ad-4503-9ef9-27f0504b883e")
 	)
 	(junction
-		(at 125.73 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4f3966c-a2f2-4f38-a672-4c87eb961304")
-	)
-	(junction
-		(at 144.78 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8b069a4-e8b6-4cbe-8dfc-cdb3243dc249")
-	)
-	(junction
 		(at 203.2 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c84db3e5-7413-4aee-af3a-253297700f61")
 	)
 	(junction
-		(at 110.49 101.6)
+		(at 143.51 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f178c3b0-b494-465f-ab62-0405a22f49d3")
+		(uuid "e2f5120f-cd09-4c02-be7f-3f37fd4c7960")
 	)
 	(no_connect
 		(at 194.31 85.09)
 		(uuid "25b68ec8-7533-4e19-ac09-141c91578aea")
-	)
-	(wire
-		(pts
-			(xy 138.43 114.3) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c40589e-9f18-44eb-af82-e804647f1f89")
 	)
 	(wire
 		(pts
@@ -1520,6 +1735,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 106.68) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c18114c-4bff-41ee-8fef-4e2c1987be61")
+	)
+	(wire
+		(pts
 			(xy 200.66 90.17) (xy 200.66 93.98)
 		)
 		(stroke
@@ -1527,16 +1752,6 @@
 			(type default)
 		)
 		(uuid "24a0ca20-9157-46de-91d7-fe88aaaedf59")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 120.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27408c99-25ab-4de7-9e1c-4d908af24bd0")
 	)
 	(wire
 		(pts
@@ -1550,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 96.52 88.9)
+			(xy 85.09 88.9) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1560,33 +1775,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 88.9) (xy 144.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c3a530-88f8-4d01-bafe-33be6d385218")
-	)
-	(wire
-		(pts
-			(xy 144.78 101.6) (xy 144.78 114.3)
+			(xy 143.51 99.06) (xy 143.51 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36ec5a7b-d725-4ddf-804f-995787888859")
-	)
-	(wire
-		(pts
-			(xy 144.78 88.9) (xy 144.78 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3753ad42-2236-403f-ae84-aa12fa4efcd3")
 	)
 	(wire
 		(pts
@@ -1600,33 +1795,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 110.49 88.9)
+			(xy 99.06 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37b3637e-debf-4cf9-8f7f-14ccf60aec55")
-	)
-	(wire
-		(pts
-			(xy 110.49 101.6) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a30ecc7-4b10-4172-84fc-304841092304")
-	)
-	(wire
-		(pts
-			(xy 120.65 114.3) (xy 130.81 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c26028-705b-44ff-b945-7de4262e84e1")
 	)
 	(wire
 		(pts
@@ -1640,13 +1815,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 130.81 76.2)
+			(xy 106.68 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fe5c76a-719a-4b24-bf37-e6bcacf67565")
+		(uuid "4c195860-cb65-46d1-a847-fb16253e2f68")
 	)
 	(wire
 		(pts
@@ -1660,16 +1835,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 154.94 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52230264-e68a-49c9-b119-9a7c3708260c")
-	)
-	(wire
-		(pts
 			(xy 173.99 96.52) (xy 176.53 96.52)
 		)
 		(stroke
@@ -1680,7 +1845,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 91.44)
+			(xy 143.51 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2fce45-3fd7-4e16-8e65-c593faf8b3bb")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1700,6 +1875,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 114.3) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d9ef01-9e94-42ab-9bc0-75da379c5273")
+	)
+	(wire
+		(pts
 			(xy 194.31 87.63) (xy 203.2 87.63)
 		)
 		(stroke
@@ -1710,7 +1895,47 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 110.49 101.6)
+			(xy 135.89 95.25) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641af478-397c-4298-b973-70cf26987e1f")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64727493-6ff9-454f-819f-c3c157441fb7")
+	)
+	(wire
+		(pts
+			(xy 125.73 102.87) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6483bb4e-fdd4-4437-8b40-4f2ed23c828d")
+	)
+	(wire
+		(pts
+			(xy 143.51 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6656fb24-e01f-4b16-ba75-4d06d408bd59")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1720,17 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8b7cd3-adc7-4e36-b80b-36a576d95d29")
-	)
-	(wire
-		(pts
-			(xy 110.49 99.06) (xy 110.49 101.6)
+			(xy 106.68 101.6) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1740,17 +1955,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 144.78 101.6)
+			(xy 115.57 95.25) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b6857b6-7e1f-448c-bcdc-2e7469c3511e")
+		(uuid "6ed5b407-60b4-44c8-b133-7eb6c110fa40")
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 144.78 88.9)
+			(xy 143.51 76.2) (xy 143.51 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1770,13 +1985,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 144.78 76.2)
+			(xy 125.73 87.63) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a35e2f9-a3bf-4215-8dfb-f52cc4eb3281")
+		(uuid "833c0a42-fe44-4ae5-9c1f-1cbd74eb6bad")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86298b40-b956-47a2-8380-fd4f6ca924b0")
 	)
 	(wire
 		(pts
@@ -1800,33 +2025,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 130.81 101.6)
+			(xy 135.89 106.68) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a58be87d-c542-498c-9a0f-5a2c9bceff40")
-	)
-	(wire
-		(pts
-			(xy 154.94 114.3) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8bbd91f-070e-4c8d-a407-3c958e90b30f")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 144.78 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca508e62-d2ea-4a60-a2f5-3729cf96921d")
+		(uuid "9edf8538-264d-4fb9-bb2c-b4f6e4c9d5c8")
 	)
 	(wire
 		(pts
@@ -1837,16 +2042,6 @@
 			(type default)
 		)
 		(uuid "cb09b724-c737-4ceb-9cf8-2f8bc64bb6bf")
-	)
-	(wire
-		(pts
-			(xy 120.65 88.9) (xy 120.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9c1376-fb95-4f35-853f-9b212fc31f90")
 	)
 	(wire
 		(pts
@@ -1880,16 +2075,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 130.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c28c12-a752-4040-a4ac-04b7fa4650c9")
-	)
-	(wire
-		(pts
 			(xy 154.94 114.3) (xy 168.91 114.3)
 		)
 		(stroke
@@ -1910,16 +2095,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 96.52 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deca170e-b210-478d-aafc-aebd022a1a80")
-	)
-	(wire
-		(pts
 			(xy 176.53 96.52) (xy 176.53 90.17)
 		)
 		(stroke
@@ -1930,13 +2105,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 120.65 88.9)
+			(xy 125.73 76.2) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecd9aec8-5760-44bd-9f2b-2c60f3685e20")
+		(uuid "fca88df4-189a-432c-8257-dcd9de293b98")
 	)
 	(wire
 		(pts
@@ -1981,7 +2156,7 @@
 	)
 	(hierarchical_label "AC_1"
 		(shape input)
-		(at 88.9 88.9 180)
+		(at 85.09 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1992,7 +2167,7 @@
 	)
 	(hierarchical_label "AC_2"
 		(shape input)
-		(at 88.9 101.6 180)
+		(at 85.09 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,7 +2186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba54eed-8c9d-440e-8bb0-ff1bf1023b60")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 157.48 105.4099 90)
 			(effects
 				(font
@@ -2083,7 +2258,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/06a9304c-e8b5-43af-b9a5-3b1ba81d2207"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2158,92 +2333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SM5063")
-		(at 134.62 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "312e0a94-2438-4a1e-b9a8-582fd9cbf990")
-		(property "Reference" "D11"
-			(at 134.62 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM5063"
-			(at 134.62 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 134.62 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sm5059.pdf"
-			(at 134.62 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard Recovery SMD Rectifier Diodes, IFAV = 2A, IFSM = 50/55A (50/60Hz), trr = 1500ns, VRRM = 1000V, DO-213AB (MELF)"
-			(at 134.62 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80aea75d-10dc-4d8e-a19b-8e72958ecac3")
-		)
-		(pin "1"
-			(uuid "e9be0512-9777-48a0-8792-1ac2dcb05f20")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9/06a9304c-e8b5-43af-b9a5-3b1ba81d2207"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 200.66 93.98 0)
 		(unit 1)
@@ -2311,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 88.9 90)
+		(at 95.25 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2320,7 +2409,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e526cc3-a7f3-4107-afce-790e38a68865")
 		(property "Reference" "R26"
-			(at 100.33 82.55 90)
+			(at 95.25 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2417,7 @@
 			)
 		)
 		(property "Value" "100K 1W"
-			(at 100.33 85.09 90)
+			(at 95.25 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2425,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:Yageo RC_L 1218"
-			(at 100.33 90.678 90)
+			(at 95.25 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 88.9 0)
+			(at 95.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2443,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 88.9 0)
+			(at 95.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2468,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 95.25 0)
+		(at 106.68 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2388,7 +2477,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b3f527c-1673-4c54-94f7-c4da0bc4aa8a")
 		(property "Reference" "C7"
-			(at 114.3 93.9799 0)
+			(at 110.49 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2486,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 114.3 96.5199 0)
+			(at 110.49 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2495,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:TDK B32529C6102"
-			(at 111.4552 99.06 0)
+			(at 107.6452 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 95.25 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2513,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 95.25 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,33 +2537,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SM5063")
-		(at 134.62 76.2 180)
+		(lib_id "Diode_Bridge:MDB6S")
+		(at 125.73 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4dc386c7-8e64-48b4-b781-26da0e21c581")
+		(uuid "572d7526-3ca8-4c27-a786-9d0401db1ca0")
 		(property "Reference" "D10"
-			(at 134.62 69.85 0)
+			(at 135.89 90.2968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SM5063"
-			(at 134.62 72.39 0)
+		(property "Value" "MDB6S"
+			(at 135.89 92.8368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 134.62 67.564 0)
+		(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,8 +2571,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sm5059.pdf"
-			(at 134.62 71.628 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,8 +2580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard Recovery SMD Rectifier Diodes, IFAV = 2A, IFSM = 50/55A (50/60Hz), trr = 1500ns, VRRM = 1000V, DO-213AB (MELF)"
-			(at 134.62 69.596 0)
+		(property "Description" "Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4"
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,29 +2589,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "578d8ad8-38c8-407f-84eb-5871f8861ab0")
 		)
 		(pin "2"
-			(uuid "49f4d855-bd1a-4c98-b05d-2dbb55bef3ef")
+			(uuid "3ce71797-d1bf-4a00-862c-d0ccfdf68145")
+		)
+		(pin "3"
+			(uuid "6e6c4e33-366c-4019-9aa2-826a441ebf1a")
 		)
 		(pin "1"
-			(uuid "0f32a70d-1398-46af-be61-5ab6b9cc33ff")
+			(uuid "4befc44a-0e28-4a94-9a23-c48690f05545")
 		)
 		(instances
 			(project ""
@@ -2605,7 +2682,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 95.25 0)
+		(at 143.51 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2614,7 +2691,7 @@
 		(fields_autoplaced yes)
 		(uuid "79cf39d9-391b-48c9-9db5-60097e44cc4c")
 		(property "Reference" "R28"
-			(at 147.32 93.9799 0)
+			(at 146.05 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2700,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 147.32 96.5199 0)
+			(at 146.05 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2709,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
-			(at 143.002 95.25 90)
+			(at 141.732 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 95.25 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2727,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 95.25 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2888,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 101.6 90)
+		(at 95.25 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2820,7 +2897,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdc518b5-b251-485a-beb7-b9e35faf2d56")
 		(property "Reference" "R27"
-			(at 100.33 95.25 90)
+			(at 95.25 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2905,7 @@
 			)
 		)
 		(property "Value" "100K 1W"
-			(at 100.33 97.79 90)
+			(at 95.25 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2913,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:Yageo RC_L 1218"
-			(at 100.33 103.378 90)
+			(at 95.25 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 101.6 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2931,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 101.6 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,92 +2949,6 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/06a9304c-e8b5-43af-b9a5-3b1ba81d2207"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM5063")
-		(at 134.62 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bea6aeec-c20c-4daa-baab-2cb6257d6413")
-		(property "Reference" "D12"
-			(at 134.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM5063"
-			(at 134.62 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 134.62 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sm5059.pdf"
-			(at 134.62 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard Recovery SMD Rectifier Diodes, IFAV = 2A, IFSM = 50/55A (50/60Hz), trr = 1500ns, VRRM = 1000V, DO-213AB (MELF)"
-			(at 134.62 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45a53e5d-fcd0-47af-87ab-9b9d93448585")
-		)
-		(pin "1"
-			(uuid "eb534332-8e0c-45f1-94eb-54a9c575366a")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9/06a9304c-e8b5-43af-b9a5-3b1ba81d2207"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3118,92 +3109,6 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/06a9304c-e8b5-43af-b9a5-3b1ba81d2207"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM5063")
-		(at 134.62 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3530cec-779b-4955-9655-e9e7d1ca00cf")
-		(property "Reference" "D13"
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM5063"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 134.62 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sm5059.pdf"
-			(at 134.62 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard Recovery SMD Rectifier Diodes, IFAV = 2A, IFSM = 50/55A (50/60Hz), trr = 1500ns, VRRM = 1000V, DO-213AB (MELF)"
-			(at 134.62 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b279758-bd9e-43e8-9aea-74a6099d4c72")
-		)
-		(pin "1"
-			(uuid "57df43d6-d302-412c-b3b4-d19ba030b89f")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9/06a9304c-e8b5-43af-b9a5-3b1ba81d2207"
-					(reference "D13")
 					(unit 1)
 				)
 			)

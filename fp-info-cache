@@ -1,4 +1,4 @@
-24753028848878200
+24754770681332774
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55236,6 +55236,13 @@ Custom_footprints
 0
 1
 1
+Custom_footprints
+Bourns_3386F
+3386 – 3/8 ˝ Square Trimpot Trimming Potentiometer
+Knob Trimpot Potentiometer
+0
+3
+3
 Custom_footprints
 Lite On LTST-C190
 Lite On LTST-C190 LED 

@@ -1,0 +1,138 @@
+(footprint "Bourns_3386F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3386 – 3/8 ˝ Square Trimpot Trimming Potentiometer")
+	(tags "Knob Trimpot Potentiometer")
+	(property "Reference" "REF**"
+		(at 0 -8.3 0)
+		(layer "F.SilkS")
+		(uuid "f00ffbc9-c3dc-45a4-b0d2-ab403e092a61")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3386F"
+		(at 0 3.7 0)
+		(layer "F.Fab")
+		(uuid "9b575e31-6e0a-4b26-bf14-63fd89ef76a2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3386.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "583e287d-2799-46fd-9aa4-1c320133f107")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3386 – 3/8 ˝ Square Trimpot Trimming Potentiometer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed49a54e-e2ff-444b-9833-e402e8f6db6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.765 -7.19)
+		(end 4.765 2.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "61855ff3-57d7-47cd-8b92-7d8e121abd78")
+	)
+	(fp_rect
+		(start -5 -7.4)
+		(end 5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "d654b7b5-6dc3-461b-94bd-3757b356e133")
+	)
+	(fp_rect
+		(start -4.7 -7.1)
+		(end 4.7 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a5782358-d735-4d7b-8871-2eefd0b89a68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.54 180)
+		(layer "F.Fab")
+		(uuid "85096897-4f13-4acd-af64-a3a3070c7114")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 -5.08)
+		(size 1.75 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac2d8d61-fa60-46f1-9b8d-b543ca73087c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b77be3a-d7eb-4382-ad0a-91e0deb1e9c3")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 -5.08)
+		(size 1.75 1.75)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4dd1e1e-4c04-453a-93d7-ca8f34d3698a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3339P_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
