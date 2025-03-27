@@ -378,196 +378,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -658,131 +468,6 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+15V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+15V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+15V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+15V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+15V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,12 +723,6 @@
 		)
 		(uuid "aa16a3c7-32b0-4c5c-9966-c13ecb66764e")
 	)
-	(junction
-		(at 44.45 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae44e191-d8be-46c4-8bd3-a411f7e225fb")
-	)
 	(no_connect
 		(at 270.51 158.75)
 		(uuid "014118c7-3e0c-4aac-8814-e3049c6e30e9")
@@ -1067,6 +746,16 @@
 	(no_connect
 		(at 232.41 158.75)
 		(uuid "3d0be39f-3e78-4f82-8d86-9c3e5399bb98")
+	)
+	(wire
+		(pts
+			(xy 40.64 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1221a460-b065-4665-8142-c3d27d1c4bd7")
 	)
 	(wire
 		(pts
@@ -1120,6 +809,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 46.99) (xy 44.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd5fedc-95db-4419-9e14-85230ea9b7bc")
+	)
+	(wire
+		(pts
 			(xy 44.45 46.99) (xy 44.45 50.8)
 		)
 		(stroke
@@ -1137,16 +836,6 @@
 			(type default)
 		)
 		(uuid "46e00184-044e-453e-b4b0-ca6f4f4b6ce3")
-	)
-	(wire
-		(pts
-			(xy 44.45 71.12) (xy 46.99 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ff1dbe-f6e5-44e4-a3a3-cc524373a0c4")
 	)
 	(wire
 		(pts
@@ -1170,16 +859,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 71.12) (xy 46.99 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570766de-ef74-403d-bd9d-a4df1b93428f")
-	)
-	(wire
-		(pts
 			(xy 119.38 100.33) (xy 127 100.33)
 		)
 		(stroke
@@ -1187,16 +866,6 @@
 			(type default)
 		)
 		(uuid "5feade24-204f-48b3-be74-34aae3dac601")
-	)
-	(wire
-		(pts
-			(xy 44.45 44.45) (xy 50.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602a4d12-273f-48f0-ba34-95ec03c0164b")
 	)
 	(wire
 		(pts
@@ -1260,16 +929,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 72.39) (xy 50.8 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992eb89b-78e2-4bd9-a40c-4e0775318bb0")
-	)
-	(wire
-		(pts
 			(xy 182.88 44.45) (xy 203.2 44.45)
 		)
 		(stroke
@@ -1310,26 +969,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 50.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb8da9f4-c755-45e9-98d4-85de0d369adc")
-	)
-	(wire
-		(pts
-			(xy 40.64 46.99) (xy 44.45 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcab9c90-ac62-4df1-a827-551856d6771e")
-	)
-	(wire
-		(pts
 			(xy 82.55 49.53) (xy 82.55 45.72)
 		)
 		(stroke
@@ -1350,16 +989,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 44.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce36fb4e-81c0-496a-a62e-1805d7cd6dee")
-	)
-	(wire
-		(pts
 			(xy 133.35 69.85) (xy 139.7 69.85)
 		)
 		(stroke
@@ -1367,26 +996,6 @@
 			(type default)
 		)
 		(uuid "d1774fb7-8c0b-442e-a071-4f2214b40db7")
-	)
-	(wire
-		(pts
-			(xy 40.64 44.45) (xy 44.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d260cca2-751e-4a83-b20b-98a80ec7d8ac")
-	)
-	(wire
-		(pts
-			(xy 44.45 68.58) (xy 46.99 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d981ef4a-ead8-4dc2-9f83-7b094c72df9d")
 	)
 	(wire
 		(pts
@@ -1410,16 +1019,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 68.58) (xy 46.99 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5258154-f43a-4d5c-a6d1-7f15df669586")
-	)
-	(wire
-		(pts
 			(xy 133.35 97.79) (xy 133.35 120.65)
 		)
 		(stroke
@@ -1427,6 +1026,74 @@
 			(type default)
 		)
 		(uuid "fa389b09-816f-4c93-af01-1ab0119e186a")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 35.56 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f5f85c-006a-43b4-b09c-4b5362b9fbc4")
+		(property "Reference" "J1"
+			(at 36.195 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 36.195 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c05cf1-0b3c-47cd-b607-152b03829531")
+		)
+		(pin "2"
+			(uuid "076d4e54-30ba-4a4e-8b2a-34f7a8700fbf")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1489,74 +1156,6 @@
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 35.56 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f46ab35-696c-4d68-8c19-1a104c5d246f")
-		(property "Reference" "J1"
-			(at 35.56 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vin"
-			(at 35.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_footprints:TerminalBlock_bornier-2_P5.08mm"
-			(at 35.56 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a556a582-2ee1-4fcc-902c-c44327b606f0")
-		)
-		(pin "2"
-			(uuid "ae9dbb5e-c674-43e0-b9c4-0eace3297e98")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1702,7 +1301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0294e2-055e-4983-867d-b4013142c417")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 92.71 43.1799 0)
 			(effects
 				(font
@@ -1756,7 +1355,7 @@
 		(instances
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2035,7 +1634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74a03125-b93b-442d-ac75-cc31257163dc")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 113.03 45.7199 0)
 			(effects
 				(font
@@ -2092,7 +1691,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2238,7 +1837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae8c99b1-c698-423d-b19a-53986754620f")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 176.53 45.7199 0)
 			(effects
 				(font
@@ -2295,73 +1894,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 44.45 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beba76e8-a1a6-454a-83da-0efc81e9a1db")
-		(property "Reference" "#PWR08"
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 44.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "869d88ea-01f6-4d51-affa-b763ed74e329")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "#PWR08")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2377,7 +1910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c34d70e8-bd8c-4ff0-a26f-47bc7b9d6541")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 91.44 68.5799 0)
 			(effects
 				(font
@@ -2431,7 +1964,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2498,74 +2031,6 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 39.37 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d39921f9-4f59-45db-a2e2-cf72c72d1ec7")
-		(property "Reference" "J2"
-			(at 39.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AC_IN"
-			(at 39.37 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_footprints:TerminalBlock_bornier-2_P5.08mm"
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95bf5eac-f74e-442d-8a45-8b69752cf5fe")
-		)
-		(pin "2"
-			(uuid "1837c952-2646-4a7c-b77a-847d0fcd1668")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6264582-fc96-4d7f-aba4-215fc97f5047")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 113.03 96.5199 0)
 			(effects
 				(font
@@ -2768,7 +2233,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2871,26 +2336,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "AC_1" input
-			(at 50.8 67.31 180)
-			(uuid "3c5fcea7-97ba-44ff-97d8-23a128cd2aaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AC_2" input
-			(at 50.8 72.39 180)
-			(uuid "82a636ad-85bf-49e4-aaa5-de20d514d52a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "ZC_OUT" output
@@ -3016,58 +2461,6 @@
 		)
 	)
 	(sheet
-		(at 203.2 63.5)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "87cce718-3122-4b4d-9f9f-662f1bd99edb")
-		(property "Sheetname" "DC Switch 2"
-			(at 203.2 62.7884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "dc_switching.kicad_sch"
-			(at 203.2 76.7846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DS" input
-			(at 203.2 69.85 180)
-			(uuid "46f3c686-5fa0-4520-94c2-6c0a0fa929aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 139.7 88.9)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
@@ -3120,7 +2513,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 114.3)
+		(at 139.7 63.5)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3134,9 +2527,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "9a0c926c-9942-46fe-b8d6-2126c643c6cd")
-		(property "Sheetname" "Random Phase Switch 2"
-			(at 139.7 113.5884 0)
+		(uuid "93b1aea1-9ad7-4509-a50e-378000dc7df8")
+		(property "Sheetname" "Zero Cross Switch 2"
+			(at 139.7 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,8 +2537,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "rp_switching.kicad_sch"
-			(at 139.7 127.5846 0)
+		(property "Sheetfile" "zc_switching.kicad_sch"
+			(at 139.7 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,8 +2547,8 @@
 			)
 		)
 		(pin "DS" input
-			(at 139.7 120.65 180)
-			(uuid "6a2bb964-deac-4807-a9ee-4452cbcefae7")
+			(at 139.7 69.85 180)
+			(uuid "866c9e23-494c-4a54-837f-b34f738f4a27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +2559,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
@@ -3224,7 +2617,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 63.5)
+		(at 203.2 63.5)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3238,9 +2631,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f41ba818-b19b-4464-ada5-69101af771e3")
-		(property "Sheetname" "Zero Cross Switch 2"
-			(at 139.7 62.7884 0)
+		(uuid "be098945-0d28-43cf-8f1c-1e469ea9c221")
+		(property "Sheetname" "DC Switch 2"
+			(at 203.2 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,8 +2641,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "zc_switching.kicad_sch"
-			(at 139.7 76.7846 0)
+		(property "Sheetfile" "dc_switching.kicad_sch"
+			(at 203.2 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,8 +2651,8 @@
 			)
 		)
 		(pin "DS" input
-			(at 139.7 69.85 180)
-			(uuid "f9346a80-517e-42e3-aabc-67bf9c0913cb")
+			(at 203.2 69.85 180)
+			(uuid "aa83997c-6ebf-4552-be5c-d8fa7eb1a890")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +2663,59 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(page "4")
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 114.3)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c29d2c32-43b4-43b4-bedd-9d4f207f41e8")
+		(property "Sheetname" "Random Phase Switch 2"
+			(at 139.7 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp_switching.kicad_sch"
+			(at 139.7 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DS" input
+			(at 139.7 120.65 180)
+			(uuid "d15960a1-9c15-49e1-90e7-96e2aa47b3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
+					(page "6")
 				)
 			)
 		)

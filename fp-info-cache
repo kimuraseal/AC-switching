@@ -1,4 +1,4 @@
-24754770681332774
+24758259644307314
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55244,6 +55244,13 @@ Knob Trimpot Potentiometer
 3
 3
 Custom_footprints
+Lite On LTST-C150
+Lite On LTST-C150 LED 
+LED
+0
+2
+2
+Custom_footprints
 Lite On LTST-C190
 Lite On LTST-C190 LED 
 LED
@@ -55285,6 +55292,13 @@ terminal block bornier2
 0
 2
 2
+Custom_footprints
+TerminalBlock_bornier-3_P5.08mm
+simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
+terminal block bornier3
+0
+3
+3
 Custom_footprints
 Yageo RC_L 0603
 Yageo RC_L Series SMD 0603

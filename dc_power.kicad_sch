@@ -1194,7 +1194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b2e9dd-7b2f-4857-916d-5fd3b11a0dd1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1276,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_footprints:Lite On LTST-C190"
+		(property "Footprint" "Custom_footprints:Lite On LTST-C150"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -1355,7 +1355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_footprints:Yageo RC_L 0603"
+		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
 			(at 175.768 101.6 90)
 			(effects
 				(font
@@ -1473,7 +1473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676d51af-2b96-47ec-9214-0fdf4dd39f0b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 140.97 116.84 0)
 			(effects
 				(font
@@ -1523,7 +1523,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

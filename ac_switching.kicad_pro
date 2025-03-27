@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -642,7 +642,7 @@
       "Zero Cross Switch 1"
     ],
     [
-      "f41ba818-b19b-4464-ada5-69101af771e3",
+      "93b1aea1-9ad7-4509-a50e-378000dc7df8",
       "Zero Cross Switch 2"
     ],
     [
@@ -650,7 +650,7 @@
       "Random Phase Switch 1"
     ],
     [
-      "9a0c926c-9942-46fe-b8d6-2126c643c6cd",
+      "c29d2c32-43b4-43b4-bedd-9d4f207f41e8",
       "Random Phase Switch 2"
     ],
     [
@@ -658,7 +658,7 @@
       "DC Switch 1"
     ],
     [
-      "87cce718-3122-4b4d-9f9f-662f1bd99edb",
+      "be098945-0d28-43cf-8f1c-1e469ea9c221",
       "DC Switch 2"
     ],
     [
