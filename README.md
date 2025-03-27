@@ -7,7 +7,7 @@ The circuit consist of
 - Zero Cross Detector.
 
 
-# 4CH AC、2CH DC スイッチングおよびACD
+# 4CH AC、2CH DC スイッチングおよびZCD
 この回路は以下の構成になっています。
 - 光アイソレーション付きTRIACスイッチング回路（4系統）
   2つはゼロクロススイッチング
