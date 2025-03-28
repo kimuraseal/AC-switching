@@ -966,6 +966,12 @@
 		(uuid "1f91c910-8279-4b62-9020-44410248b70b")
 	)
 	(junction
+		(at 170.18 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1d818a-458b-43c2-beb6-696b68f6eee5")
+	)
+	(junction
 		(at 156.21 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -983,6 +989,22 @@
 		(color 0 0 0 0)
 		(uuid "cc10763d-6b91-45b7-a7fa-c166595f655c")
 	)
+	(junction
+		(at 170.18 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db3f1fe9-a3e6-4478-b2d2-a1eafa1446b5")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0479bebd-4188-4634-b5a8-580ae29b9613")
+	)
 	(wire
 		(pts
 			(xy 123.19 105.41) (xy 123.19 107.95)
@@ -992,16 +1014,6 @@
 			(type default)
 		)
 		(uuid "0a6f57df-e494-4c07-ad41-08726db2e1e6")
-	)
-	(wire
-		(pts
-			(xy 156.21 107.95) (xy 173.99 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b41fe7c-7164-4372-9320-7a0e898e92b0")
 	)
 	(wire
 		(pts
@@ -1065,6 +1077,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb3d97c-56d3-4e37-a2e2-f63f429c86d3")
+	)
+	(wire
+		(pts
 			(xy 123.19 97.79) (xy 123.19 95.25)
 		)
 		(stroke
@@ -1085,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 95.25) (xy 173.99 97.79)
+			(xy 190.5 95.25) (xy 190.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1095,13 +1117,33 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 161.29 95.25)
+			(xy 156.21 95.25) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c970c9f-1f11-4ce7-acba-0897e4955d93")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7046554c-302d-40f6-b6f1-3a4e8574a9e6")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9c44ae-6ff3-4f30-8508-50eab89cd407")
 	)
 	(wire
 		(pts
@@ -1155,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 173.99 95.25)
+			(xy 185.42 95.25) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1207,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 173.99 107.95)
+			(xy 170.18 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c087271e-d1d6-462e-b59f-fb504cb9c9e4")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1304,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 165.1 95.25 180)
+		(at 181.61 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1261,7 +1313,7 @@
 		(fields_autoplaced yes)
 		(uuid "23509bc7-7279-4159-98b0-fdae94d131de")
 		(property "Reference" "D1"
-			(at 166.6875 87.63 0)
+			(at 183.1975 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1321,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.6875 90.17 0)
+			(at 183.1975 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1329,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:Lite On LTST-C150"
-			(at 165.1 95.25 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 95.25 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1347,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 165.1 95.25 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1356,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 95.25 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1381,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 101.6 180)
+		(at 190.5 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1338,7 +1390,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d25e8cc-4e5a-4d1e-901a-af7424ea238d")
 		(property "Reference" "R1"
-			(at 176.53 100.3299 0)
+			(at 193.04 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1399,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 176.53 102.8699 0)
+			(at 193.04 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1408,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:Yageo RC_L 1206"
-			(at 175.768 101.6 90)
+			(at 192.278 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 101.6 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1426,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 101.6 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,6 +1444,76 @@
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 170.18 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e90c8dc-1baa-460d-b04a-e6d7dd74d77e")
+		(property "Reference" "C9"
+			(at 173.99 99.4409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 173.99 101.9809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.9"
+			(at 171.1452 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3ce34a2-a7de-4f82-90b5-bb617875d655")
+		)
+		(pin "1"
+			(uuid "aac4487b-2a40-43ae-aca9-0556fa99cee4")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
+					(reference "C9")
 					(unit 1)
 				)
 			)

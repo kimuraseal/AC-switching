@@ -3282,7 +3282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Vout"
+		(property "Value" "ACRef"
 			(at 149.86 96.5199 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 148.59 96.52 0)
 			(effects
 				(font
