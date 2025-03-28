@@ -1312,7 +1312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23509bc7-7279-4159-98b0-fdae94d131de")
-		(property "Reference" "D1"
+		(property "Reference" "D11"
 			(at 183.1975 87.63 0)
 			(effects
 				(font
@@ -1373,7 +1373,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "D1")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -1389,7 +1389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d25e8cc-4e5a-4d1e-901a-af7424ea238d")
-		(property "Reference" "R1"
+		(property "Reference" "R28"
 			(at 193.04 100.3299 0)
 			(effects
 				(font
@@ -1443,7 +1443,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "R1")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1727,7 +1727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39c9760-2c82-4330-9b21-a5cfe24a58fc")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 127 99.4409 0)
 			(effects
 				(font
@@ -1781,7 +1781,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "C1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1797,7 +1797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7bb0073-c6a9-4a49-a438-59c29e23c549")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 160.02 99.4409 0)
 			(effects
 				(font
@@ -1851,7 +1851,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1867,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df9f7bfd-3cb0-4813-834c-0306f38cf1e8")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 140.97 88.9 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/332a290e-344f-462a-92a7-85789e0e9197"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)

@@ -969,14 +969,6 @@
 		(uuid "aa16a3c7-32b0-4c5c-9966-c13ecb66764e")
 	)
 	(no_connect
-		(at 257.81 152.4)
-		(uuid "014118c7-3e0c-4aac-8814-e3049c6e30e9")
-	)
-	(no_connect
-		(at 276.86 139.7)
-		(uuid "113c61b0-6680-4c1f-9abe-2cafa39560d2")
-	)
-	(no_connect
 		(at 238.76 139.7)
 		(uuid "186080a0-5e96-4239-96e1-56270a5283a3")
 	)
@@ -987,10 +979,6 @@
 	(no_connect
 		(at 219.71 139.7)
 		(uuid "206f6999-3225-44f6-8c99-896450541e56")
-	)
-	(no_connect
-		(at 257.81 139.7)
-		(uuid "33959951-69e8-4a55-8ca7-1f16ba9607fa")
 	)
 	(no_connect
 		(at 219.71 152.4)
@@ -1316,7 +1304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08f5f85c-006a-43b4-b09c-4b5362b9fbc4")
-		(property "Reference" "J1"
+		(property "Reference" "J14"
 			(at 36.195 52.07 0)
 			(effects
 				(font
@@ -1368,7 +1356,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J1")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1441,71 +1429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 255.27 139.7 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3042df84-c90c-44ec-b7cb-c96c47c2e1b7")
-		(property "Reference" "H5"
-			(at 254 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 254 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_footprints:3mm Mouting hole"
-			(at 255.27 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 255.27 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f511f8b1-191a-477d-bb86-a08146bb5eff")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 91.44 45.72 180)
 		(unit 1)
@@ -1515,7 +1438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0294e2-055e-4983-867d-b4013142c417")
-		(property "Reference" "J3"
+		(property "Reference" "J15"
 			(at 92.71 43.1799 0)
 			(effects
 				(font
@@ -1569,7 +1492,7 @@
 		(instances
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J3")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -1849,7 +1772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7176cffc-97d8-4dd1-b494-296dc9623ff5")
-		(property "Reference" "J6"
+		(property "Reference" "J13"
 			(at 180.34 69.8499 0)
 			(effects
 				(font
@@ -1909,7 +1832,7 @@
 		(instances
 			(project ""
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J6")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74a03125-b93b-442d-ac75-cc31257163dc")
-		(property "Reference" "J4"
+		(property "Reference" "J12"
 			(at 113.03 45.7199 0)
 			(effects
 				(font
@@ -1982,7 +1905,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J4")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1998,7 +1921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87dec84c-bc09-4b3e-87c1-b791b6753d5f")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 215.9 146.05 90)
 			(effects
 				(font
@@ -2047,7 +1970,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2128,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aaeabfe-42f4-40f9-93ca-6fb74a18db72")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 234.95 133.35 90)
 			(effects
 				(font
@@ -2177,7 +2100,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2193,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c34d70e8-bd8c-4ff0-a26f-47bc7b9d6541")
-		(property "Reference" "J2"
+		(property "Reference" "J9"
 			(at 91.44 68.5799 0)
 			(effects
 				(font
@@ -2247,7 +2170,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J2")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2321,71 +2244,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 274.32 139.7 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca7f73d2-9c13-41af-bece-b4e6426ad41d")
-		(property "Reference" "H7"
-			(at 273.05 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 273.05 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_footprints:3mm Mouting hole"
-			(at 274.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 274.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f426c3c8-4f19-41f1-aa6f-eb5d14504fff")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
 		(at 236.22 152.4 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2450,71 +2308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 255.27 152.4 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4063cf7-ac9f-41cc-80fc-79ee66778def")
-		(property "Reference" "H6"
-			(at 254 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 254 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_footprints:3mm Mouting hole"
-			(at 255.27 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 255.27 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fee3d77-5fb8-42c3-8b2e-db75ca928b9a")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 114.3 97.79 0)
 		(mirror x)
@@ -2524,7 +2317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6264582-fc96-4d7f-aba4-215fc97f5047")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 113.03 96.5199 0)
 			(effects
 				(font
@@ -2581,7 +2374,7 @@
 		(instances
 			(project "ac_switching"
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
