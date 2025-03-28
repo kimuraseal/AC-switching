@@ -1,8 +1,17 @@
-# Four channel Mains AC switching circuit
-The circuit consist of four optoisolated TRIAC switching circuit.
-Two of them being zero cross switched and Two of them being random pahse switched.
+# 4CH AC, 2CH DC Switching and ZCD
+The circuit consist of 
+- Four optoisolated TRIAC switching circuit.
+  Two channels being zero cross switched and other two being random phase switched.
+- Two optoisolated MOSFET switching circuit.
+  Capable of High speed operations.
+- Zero Cross Detector.
 
-# 4チャンネル商用ACスイッチング回路
-本回路は4つのフォトアイソレートされたTRIACスイッチング回路で構成されている。
-2つはゼロクロススイッチング方式
-2つはランダム位相スイッチング方式
+
+# 4CH AC、2CH DC スイッチングおよびZCD
+この回路は以下の構成になっています。
+- 光アイソレーション付きTRIACスイッチング回路（4系統）
+  2つはゼロクロススイッチング
+  2つはランダムフェーズスイッチング
+- 光アイソレーション付きMOSFETスイッチング回路（2系統）
+  高速動作が可能
+- ゼロクロス検出回路
