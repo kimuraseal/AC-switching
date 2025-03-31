@@ -662,12 +662,12 @@
       "DC Switch 2"
     ],
     [
-      "06a9304c-e8b5-43af-b9a5-3b1ba81d2207",
-      "Zero Cross Detector"
-    ],
-    [
       "7bde7a5b-0558-4e3b-92b2-0cf599fac84b",
       "DC Switch 3"
+    ],
+    [
+      "06a9304c-e8b5-43af-b9a5-3b1ba81d2207",
+      "Zero Cross Detector"
     ]
   ],
   "text_variables": {}

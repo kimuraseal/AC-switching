@@ -555,7 +555,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BZV55C15"
+		(symbol "Diode:BZD27Cxx"
 			(pin_numbers
 				(hide yes)
 			)
@@ -573,7 +573,7 @@
 					)
 				)
 			)
-			(property "Value" "BZV55C15"
+			(property "Value" "BZD27Cxx"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -581,7 +581,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(property "Footprint" "Diode_SMD:D_SMF"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -590,7 +590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/85153/bzd27series.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -599,7 +599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "15V, 500mW, 5%, Zener diode, MiniMELF"
+			(property "Description" "800mW Zener Diode, 3.6-200V, SMF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -617,7 +617,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*MiniMELF*"
+			(property "ki_fp_filters" "D*SMF*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -626,7 +626,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BZV55C15_0_1"
+			(symbol "BZD27Cxx_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
@@ -664,7 +664,7 @@
 					)
 				)
 			)
-			(symbol "BZV55C15_1_1"
+			(symbol "BZD27Cxx_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3081,84 +3081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55C15")
-		(at 151.13 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6959b7ca-7f8f-483c-b19a-ca206b9884be")
-		(property "Reference" "D3"
-			(at 153.67 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55C15"
-			(at 153.67 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 146.685 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 151.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "15V, 500mW, 5%, Zener diode, MiniMELF"
-			(at 151.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae2ef2c9-3e94-47ef-9184-1d75098b0169")
-		)
-		(pin "2"
-			(uuid "f4bce3b5-d8b5-417d-9f6e-4c185531afd7")
-		)
-		(instances
-			(project "ac_switching"
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9/5a564829-5fa3-408a-b96f-db158d3ad15a"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9/7bde7a5b-0558-4e3b-92b2-0cf599fac84b"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/b402066c-6567-466f-a855-d7be6690f5a9/be098945-0d28-43cf-8f1c-1e469ea9c221"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 140.97 95.25 0)
 		(unit 1)
@@ -3612,6 +3534,84 @@
 				)
 				(path "/b402066c-6567-466f-a855-d7be6690f5a9/be098945-0d28-43cf-8f1c-1e469ea9c221"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZD27Cxx")
+		(at 151.13 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6da4d1-bea1-46d2-bc29-126c6e2de26d")
+		(property "Reference" "D20"
+			(at 153.67 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZD27Cxx"
+			(at 153.67 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 146.685 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85153/bzd27series.pdf"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mW Zener Diode, 3.6-200V, SMF"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df7d35bf-7eea-4888-ae38-20a3a7c9bfb6")
+		)
+		(pin "1"
+			(uuid "bcbcd143-2a79-4acd-9b45-765003f7aca8")
+		)
+		(instances
+			(project "ac_switching"
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9/5a564829-5fa3-408a-b96f-db158d3ad15a"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9/7bde7a5b-0558-4e3b-92b2-0cf599fac84b"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/b402066c-6567-466f-a855-d7be6690f5a9/be098945-0d28-43cf-8f1c-1e469ea9c221"
+					(reference "D21")
 					(unit 1)
 				)
 			)
