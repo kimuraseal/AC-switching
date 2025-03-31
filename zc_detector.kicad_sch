@@ -3221,7 +3221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.9"
+		(property "Footprint" "Custom_footprints:Rubycon YXF 50V 10uF"
 			(at 169.8752 91.44 0)
 			(effects
 				(font

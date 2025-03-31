@@ -165,16 +165,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.7 0)
 		(size 1.25 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
 		(uuid "2ad585e9-a234-4b1f-bd24-2ac3d877a337")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.7 0)
 		(size 1.25 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
 		(uuid "19cf5c8a-c6e3-4f75-8e14-42c608393222")
 	)
 	(embedded_fonts no)

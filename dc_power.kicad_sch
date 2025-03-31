@@ -1477,7 +1477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.9"
+		(property "Footprint" "Custom_footprints:Rubycon YXF 50V 10uF"
 			(at 171.1452 105.41 0)
 			(effects
 				(font
@@ -1745,7 +1745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.9"
+		(property "Footprint" "Custom_footprints:Rubycon YXF 50V 10uF"
 			(at 124.1552 105.41 0)
 			(effects
 				(font
@@ -1815,7 +1815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.9"
+		(property "Footprint" "Custom_footprints:Rubycon YXF 50V 10uF"
 			(at 157.1752 105.41 0)
 			(effects
 				(font
