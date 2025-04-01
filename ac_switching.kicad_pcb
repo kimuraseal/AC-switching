@@ -688,7 +688,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "5cdd98fe-9625-4ef6-8010-0f04c26aa73f")
@@ -1564,7 +1564,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "712a9fca-d6a1-49ae-94b6-55430483c6ad")
@@ -4723,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "868a0c62-c2ab-48b4-afdc-c1f7713ac399")
@@ -7324,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "96c22363-6bde-4d1c-a657-2cf2d8a8469f")
@@ -10099,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "acae2a34-42f1-490b-ac45-ba179516c82b")
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "5e0e7b4d-4896-41d8-9f11-589e7cbf4c40")
@@ -11232,7 +11232,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "d1b336db-51f9-4080-8be2-75cd6a268504")
@@ -11433,7 +11433,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "122aabbb-3948-4597-8edc-5012dc34c9ed")
@@ -12829,7 +12829,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "1d3a72de-c3d7-427c-8fbc-afd8723bb09f")
@@ -13030,7 +13030,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "597c9749-df86-4774-8365-139d01147f64")
@@ -13687,7 +13687,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "5970576e-2301-4e74-ad9a-dccbedd10e84")
@@ -19839,7 +19839,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "0f540bb0-2425-432e-b4b6-730e1f0e1927")
@@ -21901,7 +21901,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "2c64b4a7-b084-43f0-8b45-6be542ec2664")
@@ -25308,7 +25308,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 0 1.6 90)
 			(layer "F.Fab")
 			(uuid "9feae04f-cd8e-4dbf-ac3a-f59704f44c8f")
@@ -30613,7 +30613,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 0 1.6 0)
 			(layer "F.Fab")
 			(uuid "259333c2-677c-4aed-86da-9c26e720ac95")

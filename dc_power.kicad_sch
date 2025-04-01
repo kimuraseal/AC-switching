@@ -943,12 +943,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 88.9 76.2)
+		(end 215.9 127)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0115845-6441-488a-9e31-4ee1c8cbfaf5)
+	)
 	(text "DC Power regulation Circuit"
 		(exclude_from_sim no)
-		(at 108.712 69.85 0)
+		(at 108.712 73.152 0)
 		(effects
 			(font
 				(size 1.905 1.905)
+				(color 194 0 0 1)
 			)
 		)
 		(uuid "9a8e08e7-c27f-4579-a00a-197236c8a69d")
@@ -1398,7 +1412,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "150"
 			(at 193.04 102.8699 0)
 			(effects
 				(font

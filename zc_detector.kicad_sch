@@ -2008,12 +2008,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 63.5 63.5)
+		(end 241.3 127)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d021110-3dec-4fd6-8096-52eacf92ca32)
+	)
 	(text "Zero Cross Detection Circuit\n"
 		(exclude_from_sim no)
-		(at 96.52 57.15 0)
+		(at 84.074 60.198 0)
 		(effects
 			(font
 				(size 1.905 1.905)
+				(color 194 0 0 1)
 			)
 		)
 		(uuid "fe819326-3833-4566-b63d-fa68a09f5e98")
