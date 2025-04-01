@@ -34380,7 +34380,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "0.4ms - 0.0ms\nPulse width"
+	(gr_text "0.4ms - 0.8ms\nPulse width"
 		(at 86.5 102.75 0)
 		(layer "B.SilkS")
 		(uuid "b74de3b1-064a-4b8f-8529-e4419b1c149d")

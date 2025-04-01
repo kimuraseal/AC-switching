@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "7e5a5080-4724-44f7-8415-e45b5fbdf821")
 	(paper "A4")
+	(title_block
+		(title "AC switching circuit")
+		(date "2025-04-01")
+		(rev "0")
+		(company "キムラシール株式会社")
+		(comment 1 "Rajath Katker")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names

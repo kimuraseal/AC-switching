@@ -5,9 +5,11 @@
 	(uuid "5ddb8917-ac67-45d1-bbe4-1267dd589e67")
 	(paper "A4")
 	(title_block
-		(date "2025-03-21")
+		(title "AC switching circuit")
+		(date "2025-04-01")
 		(rev "0")
 		(company "キムラシール株式会社")
+		(comment 1 "Rajath Katker")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"

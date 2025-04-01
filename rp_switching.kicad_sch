@@ -5,9 +5,11 @@
 	(uuid "8da6b560-71c8-4246-b790-67b9b4a6d6e3")
 	(paper "A4")
 	(title_block
-		(date "2025-03-21")
+		(title "AC switching circuit")
+		(date "2025-04-01")
 		(rev "0")
 		(company "キムラシール株式会社")
+		(comment 1 "Rajath Katker")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"

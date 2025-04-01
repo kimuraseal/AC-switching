@@ -5,9 +5,11 @@
 	(uuid "86739ea5-5e11-4d45-a71b-ba5838975810")
 	(paper "A4")
 	(title_block
-		(date "2025-03-21")
+		(title "AC switching circuit")
+		(date "2025-04-01")
 		(rev "0")
 		(company "キムラシール株式会社")
+		(comment 1 "Rajath Katker")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
